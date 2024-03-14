@@ -32,7 +32,8 @@ import { RegisterComponent } from './register/register.component';
     // OrderComponent
     // OrderConfirmComponent
     // LoginComponent
-    RegisterComponent
+    // RegisterComponent
+    DetailProductComponent
   ]
 })
 export class AppModule { }

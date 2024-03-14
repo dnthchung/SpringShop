@@ -6,6 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
 import { DetailProductComponent } from './detail-product/detail-product.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
     FooterComponent,
     OrderComponent,
     DetailProductComponent,
-    OrderConfirmComponent
+    OrderConfirmComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
@@ -26,7 +30,9 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
     // HomeComponent,
     // DetailProductComponent
     // OrderComponent
-    OrderConfirmComponent
+    // OrderConfirmComponent
+    // LoginComponent
+    RegisterComponent
   ]
 })
 export class AppModule { }

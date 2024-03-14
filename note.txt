@@ -1,0 +1,2 @@
+- Khởi chạy dự án l đầu tiên phía BE sẽ bị lỗi, đọc log, nếu tỏng application.yml không có config cho db thì cần comment lại cái dependency của JPA
+- 1 

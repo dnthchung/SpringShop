@@ -1,6 +1,7 @@
 package com.doanchung.springshop.dtos;
 
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 //@Data = toString()
@@ -10,7 +11,10 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CategoryDTO {
-    @NotEmpty(message = "Lỗi hiện ra khi : Category name empty.")
+    @NotNull(message = "Id must not be null")
+    private Integer id; // Use Integer instead of int
+
+    @NotEmpty(message = "Name must not be empty")
     private String name;
 
 }

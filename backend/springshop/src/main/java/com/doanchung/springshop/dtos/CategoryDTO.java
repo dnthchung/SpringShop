@@ -11,8 +11,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CategoryDTO {
-    @NotNull(message = "Id must not be null")
-    private Integer id; // Use Integer instead of int
+//    @NotNull(message = "Id must not be null")
+//    private Integer id; // Use Integer instead of int
 
     @NotEmpty(message = "Name must not be empty")
     private String name;

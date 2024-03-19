@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 //@Validated => validate ở level class thay vì nhảy vào bên trong hàm
-@RequestMapping("api/v1/categories")
+@RequestMapping("${api.prefix}/categories")
 public class CategoryController {
 
 

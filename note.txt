@@ -1,3 +1,5 @@
 - Khởi chạy dự án l đầu tiên phía BE sẽ bị lỗi, đọc log, nếu trong application.yml không có config cho db thì cần comment lại cái dependency của JPA
 - Nếu tham số truyền vào là 1 object thì cta cho nó vào trong 1 class => 1 data transfer object = request object
 - public ResponseEntity<?> insertCategory( => using "?" here bc we want to return both String(result mess) and ArrayList (list off err mess).
+- url: jdbc:mysql://localhost:3306/springshop?useSSL=false&serverTimezone=UTC,
+utc này cho + 0 vì để chạy trên cv của nước nào thì tự + giờ nc đó, phía client của mình thì +7

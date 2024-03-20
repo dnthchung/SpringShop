@@ -3,6 +3,7 @@ package com.doanchung.springshop.dtos;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 
 @Data
@@ -32,6 +33,7 @@ public class OrderDTO {
 
     @JsonProperty("phone_number")
     @NotBlank(message = "Phone number is required.")
+    @Size(min = 5, message = "phone number must be at least 5 chars.")
     private String phoneNumber;
 
     private String address;

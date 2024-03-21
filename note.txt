@@ -3,3 +3,7 @@
 - public ResponseEntity<?> insertCategory( => using "?" here bc we want to return both String(result mess) and ArrayList (list off err mess).
 - url: jdbc:mysql://localhost:3306/springshop?useSSL=false&serverTimezone=UTC,
 utc này cho + 0 vì để chạy trên cv của nước nào thì tự + giờ nc đó, phía client của mình thì +7
+- model : Ánh xạ từ db sang, sao cho tương ứng là xong
+- Tạo model thì cứ đi từ lá rồi đến cành (trong quan hệ 1 nhiều, 1 là lá, nhiều là cành)
+- Tên bảng để số nhiều viết cách nhau = "_"
+- Tên class thì luôn số ít và Viết liền kiểu lạc đà

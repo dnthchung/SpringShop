@@ -12,7 +12,6 @@ import java.util.ArrayList;
 @RestController
 @RequestMapping("${api.prefix}/order_details")
 public class OrderDetailController {
-
     /**
      * - createOrderDetail
      * - getOrderDetail
@@ -20,6 +19,7 @@ public class OrderDetailController {
      * - updateOrderDetail
      * - deleteOrderDetail : return ok() or noContent() đều được
      */
+
     @PostMapping("")
     public ResponseEntity<?> createOrderDetail(
             @Valid

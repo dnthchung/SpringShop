@@ -1,4 +1,8 @@
 package com.doanchung.springshop.repositories;
 
-public class RoleRepo {
+import com.doanchung.springshop.models.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepo extends JpaRepository<Role,Long> {
+
 }

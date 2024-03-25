@@ -1,6 +1,5 @@
 package com.doanchung.springshop.models;
 
-import com.doanchung.springshop.raw.User;
 import jakarta.persistence.*;
 import lombok.*;
 

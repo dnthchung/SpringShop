@@ -1,6 +1,5 @@
 package com.doanchung.springshop.models;
 
-import com.doanchung.springshop.raw.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 import java.util.Date;

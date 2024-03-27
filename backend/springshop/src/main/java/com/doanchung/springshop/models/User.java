@@ -41,6 +41,6 @@ public class User extends BaseEntity {
 
     @ManyToOne
     @JoinColumn(name = "role_id")
-    private com.doanchung.springshop.raw.Role role;
+    private com.doanchung.springshop.models.Role role;
 
 }

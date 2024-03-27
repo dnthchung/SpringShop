@@ -7,4 +7,8 @@ utc này cho + 0 vì để chạy trên cv của nước nào thì tự + giờ 
 - Tạo model thì cứ đi từ lá rồi đến cành (trong quan hệ 1 nhiều, 1 là lá, nhiều là cành)
 - Tên bảng để số nhiều viết cách nhau = "_"
 - Tên class thì luôn số ít và Viết liền kiểu lạc đà
+
 - Repository là nơi chứa các hàm để thao tác xuống models, và từ model thao tác vào db.
+- Trong service gọi xuống repo thì cần có chỗ nào nó gọi repo đó ra, để khởi tạo thì dùng cơ chế dependence injection
+- Trong mấy class service dùng @RequiredArgsConstructor để thay thế cho việc phải tạo Constructor từ các thuộc tính final CateRepo cateRepo;
+
